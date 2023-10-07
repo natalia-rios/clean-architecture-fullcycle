@@ -24,7 +24,7 @@ describe('Test update customer use case', () => {
     await sequelize.close()
   })
 
-  it('should find a customer', async () => {
+  it('should update customer', async () => {
     const customerRepository = new CustomerRepository()
     const usecase = new UpdateCustomerUseCase(customerRepository)
 
