@@ -4,7 +4,7 @@ import ProductModel from '../../../infrastructure/product/repository/sequelize/p
 import ProductRepository from '../../../infrastructure/product/repository/sequelize/product.repository'
 import ListProductUseCase from './list.product.usecase'
 
-describe('Test find customer use case', () => {
+describe('Test list products use case', () => {
   let sequelize: Sequelize
 
   beforeEach(async () => {
