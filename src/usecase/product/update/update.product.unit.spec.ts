@@ -5,7 +5,7 @@ const product = ProductFactory.create('a', 'Product', 20)
 
 const input = {
   id: product.id,
-  name: product.name,
+  name: "Updated product",
   price: product.price
 }
 

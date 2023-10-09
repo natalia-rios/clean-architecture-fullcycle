@@ -36,7 +36,7 @@ describe('Test create product use case', () => {
 
     const input = {
       id: randomUUID,
-      name: 'Product',
+      name: 'Updated Product',
       price: 40
     }
 
