@@ -6,7 +6,7 @@ const product = ProductFactory.create('a', 'Product', 20)
 const input = {
   id: product.id,
   name: "Updated product",
-  price: product.price
+  price: 400
 }
 
 const MockRepository = () => {

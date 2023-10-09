@@ -37,7 +37,7 @@ describe('Test create product use case', () => {
     const input = {
       id: randomUUID,
       name: 'Updated Product',
-      price: 40
+      price: 400
     }
 
     const result = await updateUseCase.execute(input)
