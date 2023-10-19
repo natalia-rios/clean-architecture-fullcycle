@@ -11,7 +11,7 @@ implements ValidatorInterface<ProductB> {
         .shape({
           id: yup.string().required('Id is required'),
           name: yup.string().required('Name is required'),
-          price: yup.string().required("Price must be greater than zero")
+          price: yup.number().min(0, 'Price must be greater than zero')
         })
         .validateSync(
           {
