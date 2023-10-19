@@ -55,7 +55,7 @@ describe('Unit test create product use case', () => {
     }
 
     await expect(customerCreateUseCase.execute(input)).rejects.toThrow(
-      'Price must be greater than zero'
+      'product: Price must be greater than zero'
     )
   })
 
@@ -70,7 +70,7 @@ describe('Unit test create product use case', () => {
     }
 
     await expect(customerCreateUseCase.execute(input)).rejects.toThrow(
-      'Name is required'
+      'product: Name is required'
     )
   })
 })
